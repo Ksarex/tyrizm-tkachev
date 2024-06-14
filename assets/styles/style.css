@@ -611,13 +611,13 @@ footer .container p {
     .video .container .rombs .first-romb{
         position: relative;
         top:-50px;
-        left:170px;
+        left:145px;
         width: 97px;
     }
     .video .container .rombs .second-romb{
         position: relative;
-        top:0px;
-        left:0px;
+        top:-10px;
+        left:25px;
         height: auto;
         min-width: 100%;
         display: inline-block;
@@ -626,8 +626,8 @@ footer .container p {
     }
     .video .container .rombs .third-romb{
         position: relative;
-        top:0px;
-        left:-20px;
+        top:-10px;
+        left:25px;
         height: auto;
         min-width: 100%;
         display: inline-block;
@@ -636,17 +636,21 @@ footer .container p {
     }
     .video .container .rombs .fourd-romb{
         position: relative;
-        top:50px;
-        left:-190px;
+        top:30px;
+        left:-95px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-
     }
     .video .container .col{
         position: relative;
+    }
+    .video .container .col{
+        margin:0;
+        padding: 0px;
+        width: 80px;
     }
 }
 
@@ -706,5 +710,46 @@ footer .container p {
 
     .photos img {
         margin: 5px;
+    }
+    .video .container .col{
+        margin:0;
+        padding: 0px;
+        width: 60px;
+    }
+    .video .container .rombs .first-romb{
+        position: relative;
+        top:-50px;
+        left:125px;
+        width: 97px;
+    }
+    .video .container .rombs .second-romb{
+        position: relative;
+        top:-20px;
+        left:35px;
+        height: auto;
+        min-width: 100%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video .container .rombs .third-romb{
+        position: relative;
+        top:-20px;
+        left:35px;
+        height: auto;
+        min-width: 100%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video .container .rombs .fourd-romb{
+        position: relative;
+        top:10px;
+        left:-55px;
+        height: auto;
+        min-width: 100%;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
