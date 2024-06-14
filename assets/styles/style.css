@@ -8,6 +8,7 @@
 body {
     margin: 0;
 }
+
 .container {
     width: 1200px;
 }
@@ -25,9 +26,11 @@ a {
     font-family: "Montserrat", sans-serif;
     font-family: "Sedgwick Ave", cursive;
 }
-.adventure{
+
+.adventure {
     height: auto;
 }
+
 .adventure .container .description h3 {
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -69,7 +72,7 @@ a {
     justify-content: center;
     align-items: center;
 } */
- .adventure .container .description{
+.adventure .container .description {
     background-image: url(../img/way.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,6 +81,7 @@ a {
     padding-bottom: 100px;
     background-position: 0% 20%;
 }
+
 /* .adventure .container .description button p {
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -112,92 +116,209 @@ a {
 .adventure .container .second-romb-adaptive {
     display: none;
 }
-footer{
-    background-color:#151C21 ;
+
+footer {
+    background-color: #151C21;
 }
-footer .container{
+
+footer .container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-footer .container h2{
-    font-size:20px;
+
+footer .container h2 {
+    font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
-    color:white;
+    color: white;
 }
-footer .container p{
-    font-size:16px;
+
+footer .container p {
+    font-size: 16px;
     line-height: 19px;
     font-weight: 400;
     font-family: "Lato", sans-serif;
-    color:white;
+    color: white;
     letter-spacing: 1px;
 }
-.down_footer{
+
+.down_footer {
     background-color: #151C21;
 }
-.down_footer .container{
-    border-top:2px solid #414141;
+
+.down_footer .container {
+    border-top: 2px solid #414141;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.down_footer .container .copyright{
+
+.down_footer .container .copyright {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
     letter-spacing: 1px;
-    color:#BBBBBB;
+    color: #BBBBBB;
 }
-.down_footer .container .privacy{
+
+.down_footer .container .privacy {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 19px;
     font-weight: 300;
-    color:#BBBBBB;
+    color: #BBBBBB;
 }
-.adventure a { 
-    display: flex; 
+
+.adventure a {
+    display: flex;
     font-family: "Lato", sans-serif;
-    justify-content: center; 
-    align-items: center; 
-    width: 220px; 
-    height: 62px; 
-    background-color: none; 
-    font-size: 20px; 
-    font-weight: 700; 
-    border: 2px solid; 
-    border-radius: 0; 
-    position: relative; 
-    transition: .4s; 
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 62px;
+    background-color: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 0;
+    position: relative;
+    transition: .4s;
     letter-spacing: 5px;
     margin-top: 90px;
-} 
- 
-.adventure a:hover { 
-    background-color: #f87b3200; 
-} 
- 
-.adventure a::before { 
-    content: ""; 
-    display: block; 
-    background: #F87932; 
-    position: absolute; 
-    z-index: -1; 
-    transition: .4s; 
-} 
- 
-.btn-lg::before { 
-    width: 0; 
-    height: 100%; 
-    top: 0; 
-    right: 0; 
-} 
- 
-.btn-lg:hover::before { 
-    width: 100%; 
 }
+
+.adventure a:hover {
+    background-color: #f87b3200;
+}
+
+.adventure a::before {
+    content: "";
+    display: block;
+    background: #F87932;
+    position: absolute;
+    z-index: -1;
+    transition: .4s;
+}
+
+.btn-lg::before {
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.btn-lg:hover::before {
+    width: 100%;
+}
+
+.gallery .container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 77px;
+    color: #222222;
+}
+
+.gallery .container h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 51px;
+    color: #444444;
+}
+
+.gallery .container p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.small-first {
+    display: grid;
+}
+
+.small-second {
+    display: flex;
+}
+
+.site:nth-child(1) {
+    display: flex;
+}
+
+.site:nth-child(2) {
+    display: grid;
+}
+
+.photos {
+    display: flex;
+}
+.gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gallery .container {
+    display: grid;
+    justify-items: center;
+}
+
+.gallery img {
+    margin: 10px;
+}
+.gallery a {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 62px;
+    background-color: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 0;
+    position: relative;
+    transition: .4s;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.gallery a:hover {
+    background-color: #f87b3200;
+}
+
+.gallery a::before {
+    content: "";
+    display: block;
+    background: #F87932;
+    position: absolute;
+    z-index: -1;
+    transition: .4s;
+}
+
+.btn-lg::before {
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.btn-lg:hover::before {
+    width: 100%;
+}
+.video{
+    background-image: url(../img/video.gif);
+    background-size: cover;
+    height: 900px;
+}
+.video .container h2{
+    
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 950px;
@@ -208,11 +329,12 @@ footer .container p{
         top: -790px;
         right: 220px;
     } */
-    footer .container .logo{
+    footer .container .logo {
         display: flex;
         height: 200px;
         justify-content: center;
     }
+
 }
 
 @media (max-width: 992px) {
@@ -304,10 +426,12 @@ footer .container p{
         top: 50px;
     }
 }
+
 @media (max-width: 768px) {
     .container {
         width: 540px;
     }
+
     .adventure .container .photos .first-romb {
         width: 300px;
         height: 300px;
@@ -324,6 +448,7 @@ footer .container p{
         top: -50px;
     }
 }
+
 @media (max-width: 576px) {
     .container {
         width: 98%;
@@ -345,20 +470,25 @@ footer .container p{
         top: -50px;
     }
 }
+
 @media (max-width: 480px) {
     .container {
         width: 98%;
     }
-    .adventure .container .description h3{
-        font-size:18px;
+
+    .adventure .container .description h3 {
+        font-size: 18px;
     }
-    .adventure .container .description h2{
-        font-size:40px;
+
+    .adventure .container .description h2 {
+        font-size: 40px;
     }
-    .adventure .container .description p{
+
+    .adventure .container .description p {
         font-size: 16px;
         margin-top: 40px;
     }
+
     /* .adventure .container .description button {
         width: 190px;
         height: 62px;
@@ -369,7 +499,7 @@ footer .container p{
         justify-content: center;
         align-items: center;
     } */
-    
+
     /* .adventure .container .description button p {
         font-family: "Lato", sans-serif;
         font-weight: 700;
@@ -393,6 +523,7 @@ footer .container p{
         left: 15px;
         top: -50px;
     }
+
     /* .adventure .container .way {
         position: relative;
         top: -740px;
@@ -400,8 +531,67 @@ footer .container p{
         max-width: 100%;
         height: 450px;
     } */
-    footer .container span{
+    footer .container span {
         text-align: center;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1310px) {
+
+    .small-first img,
+    .small-second img {
+        height: 200px;
+    }
+
+    .big-first img {
+        width: 200px;
+    }
+
+    .big-second img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 990px) {
+    .photos {
+        display: grid;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .small-first img,
+    .small-second img {
+        height: 150px;
+    }
+
+    .big-first img {
+        width: 150px;
+    }
+
+    .big-second img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .small-first img,
+    .small-second img {
+        height: 100px;
+    }
+
+    .big-first img {
+        width: 100px;
+    }
+
+    .big-second img {
+        height: 100px;
+    }
+
+    .photos img {
+        margin: 5px;
     }
 }
