@@ -257,10 +257,12 @@ footer .container p {
 .photos {
     display: flex;
 }
-.gallery{
+
+.gallery {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .gallery .container {
     display: grid;
     justify-items: center;
@@ -269,6 +271,7 @@ footer .container p {
 .gallery img {
     margin: 10px;
 }
+
 .gallery a {
     display: flex;
     font-family: "Lato", sans-serif;
@@ -310,7 +313,8 @@ footer .container p {
 .btn-lg:hover::before {
     width: 100%;
 }
-.video{
+
+.video {
     background-image: url(../img/video.gif);
     background-size: cover;
     height: 900px;
@@ -319,14 +323,16 @@ footer .container p {
     align-items: center;
     margin-bottom: 200px;
 }
-.video .container h2{
+
+.video .container h2 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: 60px;
     line-height: 66px;
     color: white;
 }
-.video .container p{
+
+.video .container p {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -334,19 +340,121 @@ footer .container p {
     line-height: 30px;
     letter-spacing: 4px;
 }
-.video button{
+
+.video button {
     background: none;
     width: 200px;
-    border:none;
+    border: none;
     margin-top: 80px;
 }
 
-.video .container{
+.video .container {
     position: absolute;
 }
-.video .container .rombs{
+
+.video .container .rombs {
     position: relative;
-    top:240px
+    top: 240px
+}
+
+.highway {
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg-high-way.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highway .container h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.highway .container p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: #EEEEEE;
+    width: 61%;
+}
+.highway .container .leftsite h2{
+    color:var(--color3);
+    font-size:60px;
+    text-align: right;
+    line-height: 72px;
+    font-weight: 400;
+    font-family: "Sedgwick Ave", cursive;
+}
+.highway .container .rightsite .row{
+    display: flex;
+}
+.highway .container .rightsite .number p{
+    font-size:80px;
+    line-height: 96px;
+    font-weight: 400;
+    color:white;
+    font-family: "Sedgwick Ave", cursive;
+    margin-bottom: 0px;
+}
+.highway .container .rightsite .itd .month{
+    font-size:23px;
+    line-height: 33px;
+    font-weight: 400;
+    color:#969696;
+    font-family: "Sedgwick Ave", cursive;
+    margin-bottom: 0px;
+}
+.highway .container .rightsite .itd .title{
+    font-size:29px;
+    line-height: 52px;
+    font-weight: 900;
+    width: 100%;
+    font-family: "Merriweather", serif;
+    margin-bottom: 0px;
+}
+.highway .container{
+    border: 2px solid white;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+.highway a {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 62px;
+    background-color: #F87932;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    transition: .4s;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.highway a:hover {
+    background-color: #f87b3200;
+}
+
+.highway a::before {
+    content: "";
+    display: block;
+    background: #F87932;
+    position: absolute;
+    z-index: -1;
+    transition: .4s;
 }
 
 @media (max-width: 1200px) {
@@ -363,6 +471,9 @@ footer .container p {
         display: flex;
         height: 200px;
         justify-content: center;
+    }
+    .highway .container .rightsite .itd .title{
+        font-size:20px;
     }
 
 }
@@ -417,14 +528,27 @@ footer .container p {
         display: block;
         overflow: hidden;
     }
-    .video .container{
+
+    .video .container {
         position: absolute;
     }
-    .video .container .rombs{
+
+    .video .container .rombs {
         position: relative;
-        top:200px
+        top: 200px
     }
-    
+    .highway .container .leftsite h2 {
+        color: var(--color3);
+        font-size: 60px;
+        text-align: center;
+        line-height: 72px;
+        font-weight: 400;
+        font-family: "Sedgwick Ave", cursive;
+    }
+    .highway .container .rightsite .itd .title{
+        font-size:29px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -459,14 +583,17 @@ footer .container p {
         left: 30px;
         top: -50px;
     }
-    .video .container{
+
+    .video .container {
         position: absolute;
     }
-    .video .container .rombs{
+
+    .video .container .rombs {
         position: relative;
-        top:150px
+        top: 150px
     }
 }
+
 @media (max-width: 576px) {
     .container {
         width: 98%;
@@ -487,14 +614,16 @@ footer .container p {
         left: 17px;
         top: -50px;
     }
-    .video .container h2{
+
+    .video .container h2 {
         font-family: "Merriweather", serif;
         font-weight: 900;
         font-size: 40px;
         line-height: 66x;
         color: white;
     }
-    .video .container p{
+
+    .video .container p {
         font-family: "Lato", sans-serif;
         font-weight: 700;
         font-size: 20px;
@@ -502,12 +631,18 @@ footer .container p {
         line-height: 30px;
         letter-spacing: 4px;
     }
-    .video .container{
+
+    .video .container {
         position: absolute;
     }
-    .video .container .rombs{
+
+    .video .container .rombs {
         position: relative;
-        top:220px
+        top: 220px
+    }
+    .highway{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -575,14 +710,16 @@ footer .container p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .video .container h2{
+
+    .video .container h2 {
         font-family: "Merriweather", serif;
         font-weight: 900;
         font-size: 20px;
         line-height: 17px;
         color: white;
     }
-    .video .container p{
+
+    .video .container p {
         font-family: "Lato", sans-serif;
         font-weight: 700;
         font-size: 12px;
@@ -591,66 +728,80 @@ footer .container p {
         letter-spacing: 4px;
         margin-top: 30px;
         width: 50%;
-        
+
     }
-    .video{
+
+    .video {
         background-image: url(../img/video-adaptive-bg.png);
         background-size: cover;
         height: 900px;
         margin-bottom: 1000px;
     }
-    .video button{
+
+    .video button {
         display: none;
     }
-    .video .container{
+
+    .video .container {
         position: none;
     }
-    .video .container .rombs{
+
+    .video .container .rombs {
         position: absolute;
     }
-    .video .container .rombs .first-romb{
+
+    .video .container .rombs .first-romb {
         position: relative;
-        top:-50px;
-        left:145px;
+        top: -50px;
+        left: 145px;
         width: 97px;
     }
-    .video .container .rombs .second-romb{
+
+    .video .container .rombs .second-romb {
         position: relative;
-        top:-10px;
-        left:25px;
+        top: -10px;
+        left: 25px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-    .video .container .rombs .third-romb{
+
+    .video .container .rombs .third-romb {
         position: relative;
-        top:-10px;
-        left:25px;
+        top: -10px;
+        left: 25px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-    .video .container .rombs .fourd-romb{
+
+    .video .container .rombs .fourd-romb {
         position: relative;
-        top:30px;
-        left:-95px;
+        top: 30px;
+        left: -95px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-    .video .container .col{
+
+    .video .container .col {
         position: relative;
     }
-    .video .container .col{
-        margin:0;
+
+    .video .container .col {
+        margin: 0;
         padding: 0px;
         width: 80px;
+    }
+
+    .video {
+        margin-bottom: 0px;
     }
 }
 
@@ -691,6 +842,28 @@ footer .container p {
     .big-second img {
         height: 150px;
     }
+    .highway .container .rightsite .number p{
+        font-size:60px;
+    }
+    .highway .container .rightsite .itd .month{
+        font-size:15px;
+        line-height: 33px;
+        font-weight: 400;
+        color:#969696;
+        font-family: "Sedgwick Ave", cursive;
+        margin-bottom: 0px;
+    }
+    .highway .container .rightsite .itd .title{
+        font-size:18px;
+        line-height: 52px;
+        font-weight: 900;
+        width: 100%;
+        font-family: "Merriweather", serif;
+        margin-bottom: 0px;
+    }
+    .highway .container .categories{
+        margin-bottom: 0px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -711,41 +884,46 @@ footer .container p {
     .photos img {
         margin: 5px;
     }
-    .video .container .col{
-        margin:0;
+
+    .video .container .col {
+        margin: 0;
         padding: 0px;
         width: 60px;
     }
-    .video .container .rombs .first-romb{
+
+    .video .container .rombs .first-romb {
         position: relative;
-        top:-50px;
-        left:125px;
+        top: -50px;
+        left: 125px;
         width: 97px;
     }
-    .video .container .rombs .second-romb{
+
+    .video .container .rombs .second-romb {
         position: relative;
-        top:-20px;
-        left:35px;
+        top: -20px;
+        left: 35px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-    .video .container .rombs .third-romb{
+
+    .video .container .rombs .third-romb {
         position: relative;
-        top:-20px;
-        left:35px;
+        top: -20px;
+        left: 35px;
         height: auto;
         min-width: 100%;
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
-    .video .container .rombs .fourd-romb{
+
+    .video .container .rombs .fourd-romb {
         position: relative;
-        top:10px;
-        left:-55px;
+        top: 10px;
+        left: -55px;
         height: auto;
         min-width: 100%;
         display: inline-block;
