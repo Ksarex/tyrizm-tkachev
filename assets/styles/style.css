@@ -456,6 +456,11 @@ footer .container p {
     z-index: -1;
     transition: .4s;
 }
+.vurezu{
+    width: 100%;
+    position: relative;
+    top:47px
+}
 
 @media (max-width: 1200px) {
     .container {
@@ -482,7 +487,12 @@ footer .container p {
     .container {
         width: 720px;
     }
-
+    .vurezu{
+        width: 100%;
+        position: relative;
+        top:36px
+    }
+    
     .adventure .container .description h2 {
         text-align: center;
     }
@@ -592,6 +602,11 @@ footer .container p {
         position: relative;
         top: 150px
     }
+    .vurezu{
+        width: 100%;
+        position: relative;
+        top:26px
+    }
 }
 
 @media (max-width: 576px) {
@@ -644,13 +659,20 @@ footer .container p {
         padding-left: 0px;
         padding-right: 0px;
     }
+    .vurezu{
+        width: 100%;
+        position: relative;
+        top:16px
+    }
 }
 
 @media (max-width: 480px) {
     .container {
         width: 98%;
     }
-
+    .vurezu{
+        display: none;
+    }
     .adventure .container .description h3 {
         font-size: 18px;
     }
