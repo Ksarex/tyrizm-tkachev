@@ -503,7 +503,6 @@ footer .container p {
 .form .container button {
     background-color: #F87932;
     padding: 16px 24px 16px 24px;
-    width: 400px;
     height: 62px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -511,7 +510,297 @@ footer .container p {
     letter-spacing: 3px;
     margin-top: 70px;
 }
+.menu-adaptive {
+    display: none;
+}
+header {
+    background-image: url(../img/BG.png);
+    background-size: cover;
+    height: 1131px;
+}
 
+header .nav .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+header .nav .container .button {
+    border-radius: 10px;
+    padding: 16px 24px 16px 24px;
+    height: 70px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    z-index: 2;
+}
+
+header .nav .container .button:hover {
+    cursor: pointer;
+    height: 110px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+header .nav .container .button p {
+    font-family: 'Lato', sans-serif;
+    color: #F87932;
+    letter-spacing: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+header .all .container .leftsitik .more-rombs,
+.romb {
+    transform: rotate(45deg);
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: black;
+    background-size: contain;
+    position: relative;
+}
+
+header .all .container .leftsitik .romb img {
+    transform: rotate(-45deg);
+    width: 150%;
+    position: absolute;
+}
+
+header .all .container .leftsitik .romb-1 {
+    width: 233px;
+    height: 233px;
+    position: relative;
+    top: -330px;
+    left: 150px;
+}
+
+header .all .container .leftsitik .romb-1 img {
+    top: -170px;
+    left: -100px;
+    transition: 0.5s;
+    transform: rotate(0);
+}
+
+header .all .container .leftsitik .romb-2 {
+    width: 133px;
+    height: 133px;
+    position: relative;
+    top: -290px;
+    left: 290px;
+}
+
+header .all .container .leftsitik .romb-2 img {
+    width: 200%;
+    top: -40px;
+    left: -70px;
+    transition: 0.5s;
+    transform: rotate(0);
+}
+
+header .all .container .leftsitik .romb-3 {
+    width: 268px;
+    height: 268px;
+    position: relative;
+    top: -280px;
+    left: 100px;
+}
+
+header .all .container .leftsitik .romb-3 img {
+    width: 205%;
+    top: -90px;
+    left: -100px;
+    transition: 0.5s;
+    transform: rotate(0);
+}
+
+header .all .container .leftsitik .romb-4 {
+    width: 156px;
+    height: 156px;
+    position: relative;
+    top: -330px;
+    left: -50px;
+}
+
+header .all .container .leftsitik .romb-4 img {
+    top: -50px;
+    transition: 0.5s;
+    transform: rotate(0);
+}
+
+header .all .container .leftsitik .romb-5 {
+    width: 225px;
+    height: 225px;
+    position: relative;
+    top: -640px;
+    left: -300px;
+}
+
+header .all .container .leftsitik .romb-5 img {
+    top: -130px;
+    left: -50px;
+    transition: 0.5s;
+    transform: rotate(0);
+}
+
+header .all .container .leftsitik .more-rombs {
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 361.52px !important;
+    height: 361.52px !important;
+    background-color: black;
+    background-size: contain;
+    position: relative;
+    left: -200px;
+    top: 150px;
+}
+
+header .all .container .leftsitik .more-rombs .slide img:hover,
+header .all .container .leftsitik .romb img:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+header .all .container .leftsitik .more-rombs .slide img {
+    transition: 0.5s;
+}
+
+header .all .container .leftsitik .more-rombs .slide {
+    transform: rotate(-45deg);
+    width: 900px;
+    top: -150px;
+    left: -300px;
+    transition: 0.5s;
+}
+
+header .all .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .all .container .rightsitik {
+    font-size: 80px;
+    margin-top: -700px;
+}
+
+header .all .container .rightsitik p {
+    color: #39BFA7;
+    font-family: "Merriweather", serif;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+header .all .container .rightsitik span {
+    color: #F87932;
+}
+
+header .all .container .rightsitik button span {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+header .all .container .rightsitik button{
+        background-color: #F87932;
+    padding: 16px 24px 16px 24px;
+    width: 213px;
+    height: 62px;
+    font-size: 20px;
+}
+.orng-btn { 
+    border-color: #f87932; 
+    background-color: #f87932; 
+    color: #ffffff; 
+    box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.6); 
+    overflow: hidden; 
+    position: relative; 
+    transition: .2s; 
+    z-index: 1;
+} 
+.orng-btn, 
+.trn-btn { 
+    border-style: solid; 
+    border-width: 2px; 
+    font-family: 'Lato'; 
+    letter-spacing: 3px; 
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    padding: 12px 20px; 
+    margin-top: 100px; 
+    cursor: pointer; 
+} 
+ 
+.orng-btn:hover .in-btn { 
+    right: 230px; 
+    transition: .5s; 
+} 
+ 
+.orng-btn:hover { 
+    transition: .5s; 
+} 
+ 
+.in-btn { 
+    z-index: -1; 
+    position: absolute; 
+    top: -30px; 
+    right: -90px; 
+    width: 20px; 
+    height: 150px; 
+    background-color: rgb(10, 172, 137); 
+    transform: rotate(30deg); 
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5); 
+    transition: .5s; 
+}
+@media (max-width: 1500px) {
+    .container {
+        width: 1440px;
+    }
+    header .all .container .leftsitik .romb-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    header .all .container .leftsitik .romb-2 {
+        width: 90px;
+        height: 90px;
+    }
+
+    header .all .container .leftsitik .romb-3 {
+        width: 210px;
+        height: 210px;
+        top: -240px;
+        left: 150px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        top: -240px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        width: 200px;
+        height: 200px;
+        top: -510px;
+    }
+
+    header .all .container .leftsitik .romb-1 img {
+        top: -50px;
+        left: 0;
+    }
+
+    header .all .container .leftsitik .romb-3 img {
+        top: 0;
+    }
+}
 @media (max-width: 1200px) {
     .container {
         width: 950px;
@@ -530,6 +819,41 @@ footer .container p {
 
     .highway .container .rightsite .itd .title {
         font-size: 20px;
+    }
+    header .all .container .leftsitik .more-rombs {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        top: -290px;
+        left: 70px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        top: -550px;
+        left: -350px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        top: -230px;
+        left: -150px;
+    }
+
+    header .all .container .leftsitik .romb-3 {
+        top: -150px;
+        left: 30px;
+    }
+
+    header .all .container .leftsitik .romb-2 {
+        top: -200px;
+        left: 190px;
+        width: 110px;
+        height: 110px;
+    }
+
+    header .nav .container .button {
+        z-index: 2;
     }
 
 }
@@ -616,24 +940,153 @@ footer .container p {
         padding-bottom: 100px;
         background-position: 100% 50%;
     }
-}
+    header .nav .container {
+        display: none;
+    }
 
+    .container-fluid {
+        background-color: none;
+    }
+
+    header .nav .menu-adaptive {
+        display: block;
+    }
+
+    .navbar-toggler {
+        background-size: cover !important;
+        border: transparent !important;
+        justify-self: end;
+    }
+
+    .navbar-toggler img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-fluid {
+        justify-content: space-between !important;
+        align-items: start;
+    }
+
+    .btn-close {
+        background-size: cover !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: relative;
+        right: 70px;
+        top: 50px;
+        fill: #F87932;
+        --bs-btn-close-opacity: 1 !important;
+        --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F87932'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e !important) !important;
+    }
+
+    .menu-adaptive a {
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        text-decoration: underline;
+        color: #F87932;
+        letter-spacing: 5px;
+    }
+
+    .logo-mobile {
+        height: 200px;
+    }
+
+    header {
+        background-repeat: no-repeat;
+        background-position: -500px;
+    }
+
+    header .all .container .leftsitik .romb-2 {
+        display: none;
+    }
+
+    header .all .container .leftsitik .more-rombs {
+        width: 250px !important;
+        height: 250px !important;
+        left: -223px;
+        top: 538px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        width: 150px;
+        height: 150px;
+        top: -232px;
+        left: -374px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        top: -4px;
+        left: -524px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .all .container .leftsitik .romb-3 {
+        top: 30px;
+        left: 12px;
+        width: 170px;
+        height: 170px;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        top: 327px;
+        left: 206px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .all .container .rightsitik {
+        margin-top: -450px;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .menu-adaptive{
+        width: 100%;
+    }
+
+}
+@media (max-width: 900px) {
+    .container {
+        width: 720px;
+    }
+    header .all .container .rightsitik p {
+        font-size: 45px;
+    }
+
+    header .all .container .leftsitik .more-rombs {
+        width: 200px !important;
+        height: 200px !important;
+        left: -160px;
+        top: 538px;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        top: 491px;
+        left: 53px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        top: -279px;
+        left: -241px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        left: -342px;
+    }
+}
 @media (max-width: 768px) {
     .container {
         width: 540px;
     }
-
-    /* .adventure .container .way {
-        position: relative;
-        top: -1125px;
-        right: 5px;
-        max-width: 100%;
-        height: 650px;
-    } */
-
-    /* .adventure .container .description button {
-        margin-top: 90px;
-    } */
 
     .adventure .container .photos .first-romb {
         width: 300px;
@@ -664,6 +1117,31 @@ footer .container p {
         width: 100%;
         position: relative;
         top: 26px
+    }
+    
+    header .all .container .rightsitik p {
+        font-size: 45px;
+    }
+
+    header .all .container .leftsitik .more-rombs {
+        width: 200px !important;
+        height: 200px !important;
+        left: -160px;
+        top: 538px;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        top: 491px;
+        left: 53px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        top: -279px;
+        left: -241px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        left: -342px;
     }
 }
 
@@ -724,6 +1202,9 @@ footer .container p {
         position: relative;
         top: 16px
     }
+    header .orng-btn, .trn-btn{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -747,27 +1228,6 @@ footer .container p {
         font-size: 16px;
         margin-top: 40px;
     }
-
-    /* .adventure .container .description button {
-        width: 190px;
-        height: 62px;
-        background-color: white;
-        border: 2px solid #222222;
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
-    /* .adventure .container .description button p {
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 4px;
-        color: #222222;
-        margin: 0px;
-    } */
     .adventure .container .photos .first-romb {
         width: 150px;
         height: 150px;
@@ -783,13 +1243,6 @@ footer .container p {
         top: -50px;
     }
 
-    /* .adventure .container .way {
-        position: relative;
-        top: -740px;
-        right: 5px;
-        max-width: 100%;
-        height: 450px;
-    } */
     footer .container span {
         text-align: center;
         margin-bottom: 20px;
@@ -887,6 +1340,58 @@ footer .container p {
     .video {
         margin-bottom: 0px;
     }
+    
+    header .all .container .rightsitik p {
+        font-size: 37px;
+    }
+
+    header .all .container .rightsitik button {
+        background-color: #F87932;
+        padding: 16px 24px 16px 24px;
+        width: 180px;
+        height: 54px;
+        font-size: 14px;
+    }
+
+    header .all .container .leftsitik .more-rombs {
+        width: 150px !important;
+        height: 150px !important;
+        left: -119px;
+        top: 538px;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        width: 100px;
+        height: 100px;
+        top: 491px;
+        left: 39px;
+    }
+
+    header .all .container .leftsitik .romb-3 {
+        top: 190px;
+        left: 12px;
+        width: 120px;
+        height: 120px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        width: 110px;
+        height: 110px;
+        top: -135px;
+        left: -117px;
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        left: -222px;
+        top: 73px;
+    }
+
+    header .all .container .rightsitik {
+        margin-top: -290px;
+    }
+    .logo-mobile {
+        height: 150px;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -952,7 +1457,11 @@ footer .container p {
     .highway .container .categories {
         margin-bottom: 0px;
     }
+    header .all .container .rightsitik p {
+        font-size: 25px;
+    }
 }
+
 
 @media (max-width: 370px) {
 
@@ -1017,5 +1526,41 @@ footer .container p {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
+    }
+    header .all .container .rightsitik p {
+        font-size: 45px;
+    }
+
+    header .all .container .leftsitik .more-rombs {
+        width: 200px !important;
+        height: 200px !important;
+        left: -50px;
+        top:100px;
+    }
+
+    header .all .container .leftsitik .romb-1 {
+        top: -151px;
+        left: 130px;
+    }
+
+    header .all .container .leftsitik .romb-5 {
+        top: -520px;
+        left: -111px;
+    }
+    header .all .container .leftsitik .romb-3 {
+        top: -30px;
+        left: 111px;
+    }
+    header .all .container{
+        display: flex;
+        flex-direction: column;
+    }
+    header .all .container .rightsitik{
+        margin-top:50px
+    }
+
+    header .all .container .leftsitik .romb-4 {
+        left: -262px;
+        top:130px
     }
 }
