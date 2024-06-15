@@ -360,13 +360,14 @@ footer .container p {
 .highway {
     padding: 150px;
     background-repeat: no-repeat;
-    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg-high-way.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-high-way.jpg);
     background-position: center;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .highway .container h2 {
     font-family: "Merriweather", serif;
     font-weight: 900;
@@ -384,45 +385,51 @@ footer .container p {
     color: #EEEEEE;
     width: 61%;
 }
-.highway .container .leftsite h2{
-    color:var(--color3);
-    font-size:60px;
+
+.highway .container .leftsite h2 {
+    color: var(--color3);
+    font-size: 60px;
     text-align: right;
     line-height: 72px;
     font-weight: 400;
     font-family: "Sedgwick Ave", cursive;
 }
-.highway .container .rightsite .row{
+
+.highway .container .rightsite .row {
     display: flex;
 }
-.highway .container .rightsite .number p{
-    font-size:80px;
+
+.highway .container .rightsite .number p {
+    font-size: 80px;
     line-height: 96px;
     font-weight: 400;
-    color:white;
+    color: white;
     font-family: "Sedgwick Ave", cursive;
     margin-bottom: 0px;
 }
-.highway .container .rightsite .itd .month{
-    font-size:23px;
+
+.highway .container .rightsite .itd .month {
+    font-size: 23px;
     line-height: 33px;
     font-weight: 400;
-    color:#969696;
+    color: #969696;
     font-family: "Sedgwick Ave", cursive;
     margin-bottom: 0px;
 }
-.highway .container .rightsite .itd .title{
-    font-size:29px;
+
+.highway .container .rightsite .itd .title {
+    font-size: 29px;
     line-height: 52px;
     font-weight: 900;
     width: 100%;
     font-family: "Merriweather", serif;
     margin-bottom: 0px;
 }
-.highway .container{
+
+.highway .container {
     border: 2px solid white;
-    padding-top:60px;
-    padding-bottom:60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .highway a {
@@ -435,7 +442,7 @@ footer .container p {
     background-color: #F87932;
     font-size: 20px;
     font-weight: 700;
-    color:white;
+    color: white;
     border: none;
     border-radius: 0;
     position: relative;
@@ -456,10 +463,53 @@ footer .container p {
     z-index: -1;
     transition: .4s;
 }
-.vurezu{
+
+.vurezu {
     width: 100%;
     position: relative;
-    top:47px
+    top: 47px
+}
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form .container h2 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color:black;
+}
+
+.form .container .title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Lato", sans-serif;
+}
+.form .container .pages p{
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.form .container .pages input{
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+.form .container button {
+    background-color: #F87932;
+    padding: 16px 24px 16px 24px;
+    width: 400px;
+    height: 62px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 70px;
 }
 
 @media (max-width: 1200px) {
@@ -477,8 +527,9 @@ footer .container p {
         height: 200px;
         justify-content: center;
     }
-    .highway .container .rightsite .itd .title{
-        font-size:20px;
+
+    .highway .container .rightsite .itd .title {
+        font-size: 20px;
     }
 
 }
@@ -487,12 +538,13 @@ footer .container p {
     .container {
         width: 720px;
     }
-    .vurezu{
+
+    .vurezu {
         width: 100%;
         position: relative;
-        top:36px
+        top: 36px
     }
-    
+
     .adventure .container .description h2 {
         text-align: center;
     }
@@ -510,12 +562,6 @@ footer .container p {
         align-items: center;
         overflow: hidden;
     }
-
-    /* .adventure .container .way {
-        position: relative;
-        top: -1130px;
-        right: 45px;
-    } */
 
     .adventure .container .photos .first-romb {
         width: 300px;
@@ -547,6 +593,7 @@ footer .container p {
         position: relative;
         top: 200px
     }
+
     .highway .container .leftsite h2 {
         color: var(--color3);
         font-size: 60px;
@@ -555,10 +602,20 @@ footer .container p {
         font-weight: 400;
         font-family: "Sedgwick Ave", cursive;
     }
-    .highway .container .rightsite .itd .title{
-        font-size:29px;
+
+    .highway .container .rightsite .itd .title {
+        font-size: 29px;
     }
 
+    .adventure .container .description {
+        background-image: url(../img/way-adaptive.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-position: 100% 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -602,10 +659,11 @@ footer .container p {
         position: relative;
         top: 150px
     }
-    .vurezu{
+
+    .vurezu {
         width: 100%;
         position: relative;
-        top:26px
+        top: 26px
     }
 }
 
@@ -655,14 +713,16 @@ footer .container p {
         position: relative;
         top: 220px
     }
-    .highway{
+
+    .highway {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .vurezu{
+
+    .vurezu {
         width: 100%;
         position: relative;
-        top:16px
+        top: 16px
     }
 }
 
@@ -670,9 +730,11 @@ footer .container p {
     .container {
         width: 98%;
     }
-    .vurezu{
+
+    .vurezu {
         display: none;
     }
+
     .adventure .container .description h3 {
         font-size: 18px;
     }
@@ -864,26 +926,30 @@ footer .container p {
     .big-second img {
         height: 150px;
     }
-    .highway .container .rightsite .number p{
-        font-size:60px;
+
+    .highway .container .rightsite .number p {
+        font-size: 60px;
     }
-    .highway .container .rightsite .itd .month{
-        font-size:15px;
+
+    .highway .container .rightsite .itd .month {
+        font-size: 15px;
         line-height: 33px;
         font-weight: 400;
-        color:#969696;
+        color: #969696;
         font-family: "Sedgwick Ave", cursive;
         margin-bottom: 0px;
     }
-    .highway .container .rightsite .itd .title{
-        font-size:18px;
+
+    .highway .container .rightsite .itd .title {
+        font-size: 18px;
         line-height: 52px;
         font-weight: 900;
         width: 100%;
         font-family: "Merriweather", serif;
         margin-bottom: 0px;
     }
-    .highway .container .categories{
+
+    .highway .container .categories {
         margin-bottom: 0px;
     }
 }
