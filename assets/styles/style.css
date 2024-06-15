@@ -62,16 +62,6 @@ a {
     width: 85%;
 }
 
-/* .adventure .container .description button {
-    width: 220px;
-    height: 62px;
-    background-color: white;
-    border: 2px solid #222222;
-    margin-top: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .adventure .container .description {
     background-image: url(../img/way.png);
     background-repeat: no-repeat;
@@ -82,15 +72,6 @@ a {
     background-position: 0% 20%;
 }
 
-/* .adventure .container .description button p {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 4px;
-    color: #222222;
-    margin: 0px;
-} */
 
 .adventure .container .photos .first-romb {
     width: 300px;
@@ -107,11 +88,6 @@ a {
     top: -30px;
 }
 
-/* .adventure .container .way {
-    position: relative;
-    top: -770px;
-    right: 175px;
-} */
 
 .adventure .container .second-romb-adaptive {
     display: none;
@@ -451,9 +427,7 @@ footer .container p {
     margin-top: 50px;
 }
 
-.highway a:hover {
-    background-color: #f87b3200;
-}
+
 
 .highway a::before {
     content: "";
@@ -760,6 +734,9 @@ header .all .container .rightsitik button{
     transform: rotate(30deg); 
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5); 
     transition: .5s; 
+}
+.highway button{
+    margin-top: 0px;
 }
 @media (max-width: 1500px) {
     .container {
